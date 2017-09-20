@@ -1,2 +1,1 @@
-# softwareFirstHomework
-softwareFirstHomework
+This is README
