@@ -1,0 +1,26 @@
+[2017-09-24 16:58:07] [info] Start Program:
+Path:"C:\Users\acer-pc\Desktop\git\softwareFirstHomework\sudoku\x64\Debug\sudoku.exe"
+Arguments:-s 1.in 
+Working directory: "C:\Users\acer-pc\Desktop\git\softwareFirstHomework\sudoku\sudoku\"
+Modules: Selected: C:\Users\acer-pc\Desktop\git\softwareFirstHomework\sudoku\x64\Debug\UnitTest2.dll Excluded: 
+Sources: Selected: C:\Users\acer-pc\Desktop\git\softwareFirstHomework\sudoku\UnitTest2 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\acer-pc\AppData\Local\Temp\x4t1tsn1.mbb 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+
+[2017-09-24 16:58:07] [info] Module: C:\Users\acer-pc\Desktop\git\softwareFirstHomework\sudoku\x64\Debug\sudoku.exe is skipped because it matches no selected patterns
+[2017-09-24 16:58:07] [info] Module: C:\Windows\System32\ntdll.dll is skipped because it matches no selected patterns
+[2017-09-24 16:58:07] [info] Module: C:\Windows\System32\kernel32.dll is skipped because it matches no selected patterns
+[2017-09-24 16:58:07] [info] Module: C:\Windows\System32\KernelBase.dll is skipped because it matches no selected patterns
+[2017-09-24 16:58:07] [info] Module: C:\Windows\System32\msvcp140d.dll is skipped because it matches no selected patterns
+[2017-09-24 16:58:07] [info] Module: C:\Windows\System32\vcruntime140d.dll is skipped because it matches no selected patterns
+[2017-09-24 16:58:07] [info] Module: C:\Windows\System32\ucrtbased.dll is skipped because it matches no selected patterns
+[2017-09-24 16:58:17] [info] ----------------------------------------------------
+[2017-09-24 16:58:17] [info] Coverage binary generated in file: C:\Users\acer-pc\AppData\Local\Temp\x4t1tsn1.mbb
+[2017-09-24 16:58:17] [info] ----------------------------------------------------
