@@ -5,3 +5,7 @@
 10000组随机数据
 暴力 74s
 DLX 109s
+删除commit却没有push的文件
+git reset --hard <commit_id>
+git push origin HEAD --force
+可用git reflog查看版本id
