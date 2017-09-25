@@ -92,38 +92,30 @@ namespace UnitTest2
 		}
 		TEST_METHOD(TestMethod6)
 		{
-			SolveS solveS;
+			SolveS_DLX solveS;
 			freopen("C:/Users/acer-pc/Desktop/git/softwareFirstHomework/sudoku/sudoku/1.in", "r", stdin);			
 			solveS.solve();
 			Assert::AreEqual(checkMatrix(solveS.matrix), true);
 		}
 		TEST_METHOD(TestMethod7)
 		{
-			SolveS solveS;
-			freopen("C:/Users/acer-pc/Desktop/git/softwareFirstHomework/sudoku/sudoku/1.in", "r", stdin);
-			solveS.solve();
-			for (int i = 0; i < matrixLen; i++)
-				for (int j = 1; j <= matrixLen; j++)
-					Assert::AreEqual(solveS.rowVis[i][j]-1<=0, true);
+			SolveS_DLX solveS;
+			Assert::AreEqual(solveS.encode(2,4,8),207);
 		}
 		TEST_METHOD(TestMethod8)
 		{
-			SolveS solveS;
-			freopen("C:/Users/acer-pc/Desktop/git/softwareFirstHomework/sudoku/sudoku/2.in", "r", stdin);
-			solveS.solve();
-			for (int i = 0; i < matrixLen; i++)
-				for (int j = 1; j <= matrixLen; j++)
-					Assert::AreEqual(solveS.colVis[i][j] - 1 <= 0, true);
+			SolveS_DLX solveS;
+			int a, b, c;
+			solveS.decode(207,a,b,c);
+			Assert::AreEqual(a, 2);
+			Assert::AreEqual(b, 4);
+			Assert::AreEqual(c, 8);
 		}
 		TEST_METHOD(TestMethod9)
 		{
-			SolveS solveS;
-			freopen("C:/Users/acer-pc/Desktop/git/softwareFirstHomework/sudoku/sudoku/1.in", "r", stdin);
-			solveS.solve();
-			for (int i = 0; i < matrixLen/3; i++)
-				for (int j= 0;j<matrixLen/3;j++)
-				for (int k = 1; k <= matrixLen; k++)
-					Assert::AreEqual(solveS.littleMatrixVis[i][j][k] - 1 <= 0, true);
+			DLX solve;
+			solve.init(5);
+			Assert::AreEqual(solve.sz,6);
 		}
 		TEST_METHOD(TestMethod10)
 		{
