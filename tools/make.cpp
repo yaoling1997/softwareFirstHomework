@@ -5,7 +5,7 @@
 #include<vector>
 #include<sys/timeb.h>
 using namespace std;
-const int maxn= 100,matrixLen= 9,T= 1000;
+const int maxn= 100,matrixLen= 9,T= 10000;
 int a[matrixLen][matrixLen];
 int n,m,i,j,x,y,z;
 int random(int o){

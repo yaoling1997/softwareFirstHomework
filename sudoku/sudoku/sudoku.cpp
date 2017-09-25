@@ -232,6 +232,7 @@ SolveS solveS;
 //		}
 //	}
 //}solveS_DLX;
+
 int main(int argc, char *argv[])
 {
 	double beginTime = clock();
@@ -252,8 +253,7 @@ int main(int argc, char *argv[])
 	double endTime = clock();
 	fclose(stdout);
 
-	freopen("2.out", "w", stdout);
-	printf("time cost:%.3f", (endTime - beginTime) / CLOCKS_PER_SEC);
+	//freopen("2.out", "w", stdout);
+	//printf("time cost:%.3f", (endTime - beginTime) / CLOCKS_PER_SEC);
 	return 0;
 }
-

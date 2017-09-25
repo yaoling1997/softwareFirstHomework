@@ -1,5 +1,4 @@
 #include "stdafx.h"
-//#include "../sudoku/solver.h"
 #include "solver.h"
 #include "CppUnitTest.h"
 

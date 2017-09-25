@@ -13,16 +13,27 @@ const int matrixLen = 9;//矩阵宽和高长度
 int outputNum = 0;
 void output(int matrix[matrixLen][matrixLen]) {
 	outputNum++;
+
+	char s[300];
+	int index = 0;
+
 	if (outputNum != 1)//不是第一次输出要空行
-		putchar('\n');
+		//putchar('\n');
+		s[index++] = '\n';
+
 	for (int i = 0; i < matrixLen; i++)
 		for (int j = 0; j < matrixLen; j++) {
-			putchar(matrix[i][j] + '0');
+			//putchar(matrix[i][j] + '0');
+			s[index++] = matrix[i][j] + '0';
 			if (j < matrixLen - 1)
-				putchar(' ');
+				//putchar(' ');
+				s[index++] = ' ';
 			else
-				putchar('\n');
+				//putchar('\n');
+				s[index++] = '\n';
 		}
+	s[index] = 0;
+	fputs(s, stdout);
 }
 struct SolveC {
 	int n = 0;
