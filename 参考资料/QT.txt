@@ -3,3 +3,7 @@ http://m.blog.csdn.net/liang19890820/article/details/49874033
 http://tieba.baidu.com/p/5297420208
 http://blog.csdn.net/louis_815/article/details/54286544
 http://www.cnblogs.com/majianchao/p/6642109.html
+自动打包exe的依赖
+http://blog.csdn.net/syrchina/article/details/46550435 
+http://blog.csdn.net/zzwdkxx/article/details/25823363
+http://www.kuqin.com/qtdocument/tutorial1-01.html
